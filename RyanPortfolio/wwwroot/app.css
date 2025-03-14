@@ -50,3 +50,11 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+/* set your default styling, like Text-Large or whatever here */
+@media (max-width: 768px) {
+    /* 
+        This makes special changes to the above css when the screen is below this size
+        so you would adjust your Text-Large settings here for screens below a certain size.
+    */
+}

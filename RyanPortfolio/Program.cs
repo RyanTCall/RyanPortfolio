@@ -25,3 +25,5 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
+
+// we will want to update this and add in new references at some point but not needed right now.

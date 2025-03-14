@@ -1,0 +1,4 @@
+﻿The bootstrap folder here and everything inside it can be removed. 
+The favicon can be removed
+
+See the app.razor for notes on bringing in bootstrap
