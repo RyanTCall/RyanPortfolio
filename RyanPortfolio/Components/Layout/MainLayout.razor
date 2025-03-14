@@ -1,0 +1,35 @@
+﻿@inherits LayoutComponentBase
+
+<div class="main">
+    <div class="topbar">
+        <!-- Top Nav Bar Containing-->
+        <nav>
+            <ul>
+                <li class="topbar-link"><a href="#">Dashboard</a></li>
+                <li class="topbar-link"><a href="#">Settings</a></li>
+                <li class="topbar-link"><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="page">
+        <div class="sidebar">
+       
+        </div>
+
+        <main>
+        
+
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+</div>

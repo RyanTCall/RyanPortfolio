@@ -1,0 +1,51 @@
+﻿.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    gap: -10px;
+}
+
+.title-small {
+    position: relative;
+    left: -25vw;
+    color: rgb(131 131 131);
+    height: 2vh;
+}
+
+.title-small-text {
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+.title-large {
+    position: relative;
+    z-index: 1;
+}
+
+.title-large-text {
+    font-size: clamp(2rem, 9.33333vw, 5.3333rem);
+    font-weight: bold;
+    background: linear-gradient(120deg, rgb(80, 94, 196) 0%, rgb(80, 94, 196) 60%, rgb(122, 122, 250) 60%, rgb(80, 94, 196) 61%, rgb(80, 94, 196) 100%);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (min-width: 912px) {
+    .title-small {
+        left:-15%
+    }
+}
